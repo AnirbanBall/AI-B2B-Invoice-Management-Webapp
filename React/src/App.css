@@ -1,0 +1,104 @@
+.table-props {
+    margin-top: 10%;
+    margin-left: 1.5%;
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 97%;
+    height: 78%;
+    overflow-x: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    display: block;
+    white-space: nowrap;
+
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #575757;
+    border-radius: 12px;
+}
+
+/* on hovering over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+    background: #494848;
+}
+
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+    color: white;
+    /* Change the color value to the desired font color */
+    font-family: "Arial", sans-serif;
+    /* Change the font-family value to the desired font style */
+}
+
+.MuiDataGrid-root .MuiIconButton-root {
+    color: white;
+    /* Change the color value to white */
+    border-color: white;
+    /* Change the border color value to white */
+}
+
+.MuiDataGrid-checkbox {
+    border-color: white;
+    
+}
+
+.MuiDataGrid-root .MuiDataGrid-colCellTitle {
+    color: white;
+    /* Change the color value to white */
+}
+.MuiDataGrid-columnHeader{
+  color: white;
+}
+
+.table-props .MuiCheckbox-colorPrimary.Mui-checked {
+  color: #fc7500;
+}
+
+.header {
+  position: relative;
+}
+
+.right-image {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+  margin-top: 1.5%;
+}
+
+.left-image{
+  margin-left: 1.75%;
+  margin-top: 1.5%;
+}
+
+.orange-button {
+  background-color: orange;
+  color: white;
+}
+
+/* .pagination-container{
+  margin-bottom: '10px';
+} */
+
+
+.MuiSelect-root.MuiSelect-select.MuiTablePagination-select.MuiSelect-selectMenu.MuiInputBase-input {
+  color: white;
+}
+
+.MuiTypography-root.MuiTablePagination-caption.MuiTypography-body2.MuiTypography-colorInherit {
+  color: white;
+}
+
